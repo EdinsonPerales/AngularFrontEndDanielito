@@ -13,6 +13,7 @@ import { HeaderComponent } from './components/shared/header/header.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { SalesComponent } from './components/sales/sales.component';
+import { PruebaComponent } from './prueba/prueba.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SalesComponent } from './components/sales/sales.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    SalesComponent
+    SalesComponent,
+    PruebaComponent
   ],
   imports: [
     BrowserModule, 
