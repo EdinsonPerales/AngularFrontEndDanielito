@@ -59,6 +59,18 @@ a:hover {
     text-decoration: underline;
 }
 
+button {
+    color: #3f84fc;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0px;
+}
+
+button:hover {
+    color: #0458eb;
+    text-decoration: underline;
+}
+
 h1,
 h2,
 h3,
@@ -205,11 +217,23 @@ thead tr th {
     text-decoration: none;
 }
 
+.dashboard-nav button {
+    color: #515151;
+}
+
+.dashboard-nav button:hover {
+    text-decoration: none;
+}
+
 .dashboard-nav {
     background-color: #443ea2;
 }
 
 .dashboard-nav a {
+    color: #fff;
+}
+
+.dashboard-nav button {
     color: #fff;
 }
 
@@ -420,6 +444,31 @@ thead tr th {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+
+.salesForm {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.rowSearchProduct {
+    position: flex;
+    justify-content: center;
+}
+
+.rowSearchProduct .colSearchProduct {
+    flex-grow: 0.5;
+}
+
+.tableSearchProduct {
+    overflow: auto;
+    height: 200px;
+}
+
+.thTableSearchProduct {
+    position: sticky;
+    top: 0px;
+    background-color: #343a40;
 }
 
 @media (min-width: 992px) {
